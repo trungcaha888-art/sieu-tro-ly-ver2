@@ -326,9 +326,12 @@ h1 {
   object-fit: cover;
 }
 
-.gallery-card:first-child img {
-  object-position: center 36%;
+.gallery-card-large img {
+  height: 240px;
+  object-position: center top;
 }
+
+
 
 .gallery-card figcaption {
   padding: 12px 14px 14px;
