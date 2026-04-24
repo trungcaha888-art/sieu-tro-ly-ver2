@@ -155,24 +155,29 @@
   <div class="form-modal-backdrop" data-form-modal hidden>
     <div class="lead-popup" role="dialog" aria-modal="true" aria-labelledby="lead-popup-title">
       <button class="modal-close form-modal-close" type="button" data-form-modal-close aria-label="Đóng">×</button>
+
+      <div class="popup-progress"><div class="popup-progress-bar"></div></div>
+
       <h2 id="lead-popup-title">Điền Thông Tin Của Bạn Bên Dưới Để Hoàn Thành Đăng Ký Miễn Phí</h2>
-      <p class="lead-popup-note">Sau khi hoàn tất, bạn sẽ được chuyển sang bước vào nhóm Zalo để nhận link Zoom và tài liệu mẫu.</p>
+
       <form class="lead-form popup-lead-form" data-lead-form>
-        <label>
-          <span>Họ và tên</span>
-          <input name="name" type="text" autocomplete="name" placeholder="Ví dụ: Nguyễn Thành Trung" required>
-        </label>
-        <label>
-          <span>Số điện thoại/Zalo</span>
-          <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="09xx xxx xxx" required>
-        </label>
-        <label>
-          <span>Email nhận link Zoom</span>
-          <input name="email" type="email" autocomplete="email" placeholder="emailcuaban@gmail.com" required>
-        </label>
+        <div class="input-icon-wrap">
+          <span class="input-icon">👤</span>
+          <input name="name" type="text" autocomplete="name" placeholder="Họ và tên của bạn" required>
+        </div>
+        <div class="input-icon-wrap">
+          <span class="input-icon">📱</span>
+          <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Số điện thoại / Zalo" required>
+        </div>
+        <div class="input-icon-wrap">
+          <span class="input-icon">✉️</span>
+          <input name="email" type="email" autocomplete="email" placeholder="Email nhận link Zoom" required>
+        </div>
+
         <div class="popup-actions">
-          <button class="popup-back" type="button" data-form-modal-close>← Quay lại</button>
-          <button class="popup-submit" type="submit">HOÀN THÀNH</button>
+          <button class="popup-back" type="button" data-form-modal-close>←</button>
+          <span class="popup-step">2 of 2</span>
+          <button class="popup-submit" type="submit">SUBMIT</button>
         </div>
       </form>
     </div>
