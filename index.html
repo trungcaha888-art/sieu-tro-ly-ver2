@@ -11,7 +11,8 @@
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="./styles.css">
 
   <!-- Meta Pixel Code -->
@@ -70,11 +71,11 @@
     <section class="main-content">
       <div class="container content-grid">
         <aside class="proof-column">
-          <img class="main-photo" src="./assets/trung-caha-portrait.png" alt="Trung Caha - giảng viên hướng dẫn AI">
+          <img class="main-photo" src="./assets/trung-caha-portrait.png" alt="Trung Caha - giảng viên hướng dẫn AI" decoding="async">
 
           <article class="proof-box">
             <strong>Demo báo cáo doanh thu</strong>
-            <img src="./assets/demo-revenue.png" alt="Trợ lý AI báo cáo doanh thu trên Telegram">
+            <img src="./assets/demo-revenue.jpg" alt="Trợ lý AI báo cáo doanh thu trên Telegram" loading="lazy" decoding="async">
           </article>
 
           <article class="proof-box">
@@ -114,23 +115,23 @@
         <p>Cofounder Mlab AI/ClickAI · Khách mời VTV1 & ANTV · 10 năm đào tạo online · 10.000+ học viên trên toàn quốc.</p>
         <div class="authority-gallery" aria-label="Hình ảnh thực tế về Trung Caha">
           <figure class="gallery-card">
-            <img src="./assets/trung-fpt-workshop.png" alt="Trung Caha tại workshop Future Skills and Resilience ở FPT University">
+            <img src="./assets/trung-fpt-workshop.jpg" alt="Trung Caha tại workshop Future Skills and Resilience ở FPT University" loading="lazy" decoding="async">
             <figcaption>Workshop tại FPT University</figcaption>
           </figure>
           <figure class="gallery-card">
-            <img src="./assets/trung-training-class.png" alt="Trung Caha đào tạo AI trong lớp học với học viên">
+            <img src="./assets/trung-training-class.jpg" alt="Trung Caha đào tạo AI trong lớp học với học viên" loading="lazy" decoding="async">
             <figcaption>Đào Tạo cho Đài Truyền Hình Thành Phố HCM HTV</figcaption>
           </figure>
           <figure class="gallery-card">
-            <img src="./assets/trung-stage-training.png" alt="Trung Caha chia sẻ trên sân khấu Đại học Thái Nguyên">
+            <img src="./assets/trung-stage-training.jpg" alt="Trung Caha chia sẻ trên sân khấu Đại học Thái Nguyên" loading="lazy" decoding="async">
             <figcaption>Chia sẻ tại sự kiện đại học</figcaption>
           </figure>
           <figure class="gallery-card gallery-card-large">
-            <img src="./assets/trung-vtv1.png" alt="Trung Caha xuất hiện trong chương trình VTV1">
+            <img src="./assets/trung-vtv1.jpg" alt="Trung Caha xuất hiện trong chương trình VTV1" loading="lazy" decoding="async">
             <figcaption>Khách mời VTV1</figcaption>
           </figure>
           <figure class="gallery-card gallery-card-large">
-            <img src="./assets/trung-antv.png" alt="Trung Caha xuất hiện trong chương trình ANTV">
+            <img src="./assets/trung-antv.jpg" alt="Trung Caha xuất hiện trong chương trình ANTV" loading="lazy" decoding="async">
             <figcaption>Khách mời ANTV</figcaption>
           </figure>
         </div>
@@ -186,6 +187,6 @@
 
 
 
-  <script src="./script.js"></script>
+  <script src="./script.js" defer></script>
 </body>
 </html>
