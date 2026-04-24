@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Demo báo cáo lợi nhuận gần đây</title>
+  <desc id="desc">Biểu đồ cột lợi nhuận gần đây, hiển thị 43.021.826 đồng và tăng 180% so với kỳ trước.</desc>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="50" y="70" fill="#444" font-size="24" font-weight="800">Lợi nhuận gần đây</text>
+    <rect x="252" y="50" width="14" height="14" rx="2" fill="none" stroke="#777" stroke-width="1.6"/>
+    <text x="256" y="62" fill="#777" font-size="10" font-weight="800">i</text>
+
+    <text x="50" y="125" fill="#3f3f46" font-size="28" font-weight="800">43.021.826 đ</text>
+    <text x="50" y="154" fill="#15803d" font-size="16" font-weight="700">+180%</text>
+    <text x="106" y="154" fill="#7b7b7b" font-size="16">so với kỳ trước</text>
+
+    <rect x="690" y="96" width="137" height="34" rx="5" fill="#e8ebef"/>
+    <text x="705" y="119" fill="#444" font-size="16" font-weight="700">Năm trước</text>
+    <path d="M800 108l6 6 6-6M800 118l6-6 6 6" fill="none" stroke="#666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <line x1="50" y1="225" x2="827" y2="225" stroke="#d8d8d8" stroke-width="1"/>
+    <line x1="50" y1="310" x2="827" y2="310" stroke="#d8d8d8" stroke-width="1"/>
+    <line x1="50" y1="395" x2="827" y2="395" stroke="#d8d8d8" stroke-width="1"/>
+    <line x1="50" y1="401" x2="827" y2="401" stroke="#d8d8d8" stroke-width="1"/>
+
+    <text x="50" y="218" fill="#777" font-size="14">8.000.000 đ</text>
+    <text x="50" y="303" fill="#777" font-size="14">4.000.000 đ</text>
+    <text x="50" y="393" fill="#777" font-size="14">0 đ</text>
+
+    <g fill="#0b7bd3">
+      <rect x="140" y="258" width="28" height="143" rx="4"/>
+      <rect x="194" y="221" width="28" height="180" rx="4"/>
+      <rect x="248" y="263" width="28" height="138" rx="4"/>
+      <rect x="303" y="249" width="28" height="152" rx="4"/>
+      <rect x="357" y="321" width="28" height="80" rx="4"/>
+      <rect x="411" y="350" width="28" height="51" rx="4"/>
+      <rect x="465" y="363" width="28" height="38" rx="4"/>
+      <rect x="519" y="377" width="28" height="24" rx="4"/>
+      <rect x="573" y="376" width="28" height="25" rx="4"/>
+      <rect x="627" y="372" width="28" height="29" rx="4"/>
+      <rect x="681" y="328" width="28" height="73" rx="4"/>
+      <rect x="735" y="364" width="28" height="37" rx="4"/>
+    </g>
+
+    <g fill="#777" font-size="14" text-anchor="middle">
+      <text x="154" y="425">thg 5</text>
+      <text x="154" y="444">2025</text>
+      <text x="208" y="425">thg 6</text>
+      <text x="262" y="425">thg 7</text>
+      <text x="317" y="425">thg 8</text>
+      <text x="371" y="425">thg 9</text>
+      <text x="425" y="425">thg 10</text>
+      <text x="479" y="425">thg 11</text>
+      <text x="533" y="425">thg 12</text>
+      <text x="587" y="425">thg 1</text>
+      <text x="587" y="444">2026</text>
+      <text x="641" y="425">thg 2</text>
+      <text x="695" y="425">thg 3</text>
+      <text x="749" y="425">thg 4</text>
+    </g>
+  </g>
+</svg>
