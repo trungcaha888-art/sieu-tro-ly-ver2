@@ -1,5 +1,5 @@
-const WEBINAR_TIME = new Date("2026-05-05T19:45:00+07:00").getTime();
-const ZALO_GROUP_URL = "https://zalo.me/g/mvglbq057";
+const WEBINAR_TIME = new Date("2026-05-12T19:45:00+07:00").getTime();
+const ZALO_GROUP_URL = "https://zalo.me/g/vmoqag863";
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzpK07teW-jeXVfUtUpgAGgEOkgWh-8DLGZeu_ydlnwNN094XiVQOqS0h31SFzqoqMa/exec";
 
 const countdownEls = {
